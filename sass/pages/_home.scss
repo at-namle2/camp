@@ -1,0 +1,13 @@
+.header-divider {
+  height: 12px;
+  margin-bottom: 20px;
+  background: url(../img/bg/header-divider.png) top left;
+}
+.slide {
+  @include border-radius(4px);
+  margin: 22px 0px 20px 0px;
+  padding: 9px;
+  border: 1px solid map-get($color, gray-1);
+  background: map-get($color, white);
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
