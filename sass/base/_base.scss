@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: map-get($color, black)
+  color: map-get($color, white);
+  font-family: "Roboto Condensed", serif;
+  font-size: 10px;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+h1, h2 , h3, h4, h5, h6 {
+  font-family: 'Economica', sans-serif;
+}
+.bgk {
+  background-color: #ebe7df;
+}
+.img {
+  max-width: 100%;
+  width: 100%;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.font-size-17 {
+  font-size: 17px;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.font-size-24 {
+  font-size: 24px;
+}
+.font-size-30 {
+  font-size: 30px;
+}
+.font-size-48 {
+  font-size: 48px;
+}
+.font-size-60 {
+  font-size: 60px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
