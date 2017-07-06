@@ -15,3 +15,16 @@
   outline: none;
   border: none;
 }
+%select-option {
+  @include border-radius(3px);
+  padding: 10px 15px 11px 15px;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.1);
+  border: 1px solid map-get($color, gray-4);
+  background-color: map-get($color, white-2);
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  color: map-get($color, black);
+  margin-left: 48px;
+}

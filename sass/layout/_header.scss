@@ -2,6 +2,7 @@
 .top-header {
   @extend %clearfix;
   background: map-get($color, camp);
+  background: url(../img/bg/);
   .img-logo {
     max-width: 120px;
   }

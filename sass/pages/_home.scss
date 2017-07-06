@@ -11,3 +11,70 @@
   background: map-get($color, white);
   box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
 }
+.petured-product {
+  .title-featured {
+    background: url(../img/bg/heading.png) bottom left repeat-x;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
+  }
+  .gallery {
+    @extend %clearfix;
+    margin-bottom: 50px;
+    .gallery-item {
+      float: left;
+      width: calc((100% - 180px) / 4);
+      margin-right: 60px;
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+      .sample-item {
+        @include border-radius(4px);
+        margin: 0px 0px 20px 0px;
+        padding: 9px;
+        border: 1px solid map-get($color, gray-1);
+        background: map-get($color, gray-2);
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        .title-women {
+          padding: 10px 0 10px;
+          .woment {
+            text-decoration: none;
+            color: map-get($color, green);
+          }
+        }
+        .title-price {
+          padding-bottom: 14px;
+        }
+        .select-option {
+          @extend %select-option;
+          &.option {
+            background: url(../img/bg/button-add-cart.png) center right;
+            padding-right: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+.content-height-line {
+  background: map-get($color, gray-5);
+  border-top: 1px solid map-get($color, gray-4);
+  border-bottom: 1px solid map-get($color, gray-4);
+  margin: 0 0 10px 0;
+  padding: 20px 0 20px 0;
+  .btn-start {
+     @extend %select-option;
+     &.bts {
+      background: url(../img/bg/button-add-cart.png) center right;
+      padding-right: 40px;
+    }
+  }
+  .homepage-adjust {
+    margin: 0px 20px 0px 0px;
+    position: relative;
+    bottom: 10px;
+  }
+  .title-heading {
+    padding-bottom: 10px;
+  }
+}
