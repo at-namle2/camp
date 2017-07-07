@@ -6,6 +6,7 @@
   .logo {
     @extend %no-mr-pd;
     background: none;
+    float: left;
     .img-logo {
       max-width: 120px;
       height: 60px;
@@ -13,6 +14,7 @@
   }
   .menu-login {
     @extend %no-mr-pd;
+    float: right;
     .menu-login-item {
       background: url(../img/bg/login-header.png) top right no-repeat;
       display: inline-block;
@@ -57,6 +59,7 @@
   background: map-get($color, orange);
   .menu-main {
     @extend %no-mr-pd;
+    float: left;
     .menu-main-item {
       display: inline-block;
       padding: 20px 20px;
@@ -72,8 +75,10 @@
     }
   }
   .right-nav-bar {
+    float: right;
     .socials {
       @extend %clearfix;
+      float: left;
       .social-item {
         @include border-radius(50%);
         margin: 12px 4px;
