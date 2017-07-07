@@ -3,16 +3,16 @@
   padding: 0;
 }
 body {
-  font-family: "Roboto Condensed", serif;
-  font-size: 12px;
-  height: 100%;
-  margin: 0;
-  // overflow: hidden;
-  padding: 0;
-  width: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: map-get($color, gray-10);
 }
 h1, h2 , h3, h4, h5, h6 {
   font-family: 'Economica', sans-serif;
+}
+.font-roboto {
+  font-family: "Roboto Condensed", serif;
 }
 .bgk {
   background-color: #ebe7df;
@@ -20,6 +20,9 @@ h1, h2 , h3, h4, h5, h6 {
 .img {
   max-width: 100%;
   width: 100%;
+}
+.img-border {
+  border: 1px solid map-get($color, gray-1);
 }
 .font-size-12 {
   font-size: 12px;

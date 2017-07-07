@@ -24,7 +24,17 @@
   background-color: map-get($color, white-2);
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
   color: map-get($color, black);
-  margin-left: 48px;
+  display: block;
+  padding-top: 3px;
+  height: 18px;
+  margin: 0 auto;
+}
+%gallery-item {
+  float: left;
+  width: calc((100% - 180px) / 4);
+  margin-right: 60px;
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
 }
