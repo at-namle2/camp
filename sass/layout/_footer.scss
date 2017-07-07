@@ -1,7 +1,7 @@
-.gallery {
+.gallery-footer {
   @extend %clearfix;
   margin-bottom: 50px;
-  .gallery-item {
+  .gallery-footer-item {
     @extend %gallery-item;
     .title-about {
       background: url(../img/bg/footer-headings.png) bottom left repeat-x;

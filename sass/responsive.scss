@@ -1,0 +1,405 @@
+@media screen and (max-width: 321px) {
+  .top-header {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 15px;
+    .logo {
+      float: left !important;
+      text-align: center;
+    }
+    .menu-login {
+      float: none !important;
+      text-align: center;
+      display: none;
+      padding-top: 70px;
+      .ls, .lc {
+        &:after {
+          display: none;
+        }
+      }
+      .menu-login-item {
+        display: block;
+        padding: 0 !important;
+        width: 100%;
+        height: 40px;
+        line-height: 50px;
+        border-bottom: 1px solid orange;
+        .menu-login-item-a {
+          padding: 0;
+          font-size: 12px;
+          &:hover {
+            text-decoration: underline;
+            color: orange;
+          }
+        }
+      }
+    }
+    .nav-bar-bar {
+      display: block !important;
+      width: 40px;
+      height: 40px;
+      background:  orange;
+      text-align: center;
+      line-height: 40px;
+      position: absolute;
+      right: 8px;
+      top: 14px;
+    }
+    .nav-bar-a  {
+      color: #ffffff;
+    }
+  }
+  .bottom-header {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    .menu-main {
+      float: none !important;
+      display: none;
+    }
+    .right-nav-bar {
+      float: none !important;
+      text-align: center;
+      .socials {
+        float: none !important;
+      }
+    }
+  }
+  .select-menu {
+    display: block !important;
+    padding: 9px;
+    width: 50% !important;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background: url(../img/bg/select-arrow.png) center right no-repeat;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .input {
+    margin-bottom: 20px !important;
+  }
+  //petured-product//
+  .petured-product {
+    .gallery {
+      .gallery-item {
+        float: none !important;
+        width: 100% !important;
+        height: 100%;
+      }
+    }
+    .title-featured {
+      text-align: center;
+    }
+  }
+  // content-height-line //
+  .content-height-line {
+    .homepage-adjust {
+      float: none !important;
+    }
+   .title-lorem {
+      padding: 9px;
+    }
+    .title-heading {
+      text-align: center;
+    }
+  }
+  //lery-footer//
+  .lery-footer {
+    .gallery-footer {
+      .gallery-footer-item {
+        float: none !important;
+        width: 100% !important;
+        height: 100% !important;
+        .title-about {
+          text-align: center;
+        }
+        .desc-text {
+          padding: 9px;
+        }
+        .box {
+          .box-item {
+            margin-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    padding: 20px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top-header {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 15px;
+    .logo {
+      float: left !important;
+      text-align: center;
+    }
+    .menu-login {
+      float: none !important;
+      text-align: center;
+      display: none;
+      padding-top: 70px;
+      .ls, .lc {
+        &:after {
+          display: none;
+        }
+      }
+      .menu-login-item {
+        display: block;
+        padding: 0 !important;
+        width: 100%;
+        height: 40px;
+        line-height: 50px;
+        border-bottom: 1px solid orange;
+        .menu-login-item-a {
+          padding: 0;
+          font-size: 12px;
+          &:hover {
+            text-decoration: underline;
+            color: orange;
+          }
+        }
+      }
+    }
+    .nav-bar-bar {
+      display: block !important;
+      width: 40px;
+      height: 40px;
+      background:  orange;
+      text-align: center;
+      line-height: 40px;
+      position: absolute;
+      right: 8px;
+      top: 14px;
+    }
+    .nav-bar-a  {
+      color: #ffffff;
+    }
+  }
+  .bottom-header {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    .menu-main {
+      float: none !important;
+      display: none;
+    }
+    .right-nav-bar {
+      float: none !important;
+      text-align: center;
+      .socials {
+        float: none !important;
+      }
+    }
+  }
+  .select-menu {
+    display: block !important;
+    padding: 9px;
+    width: 50% !important;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background: url(../img/bg/select-arrow.png) center right no-repeat;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .input {
+    margin-bottom: 20px !important;
+  }
+  //petured-product//
+  .petured-product {
+    .gallery {
+      .gallery-item {
+        float: none !important;
+        width: 100% !important;
+        height: 100%;
+      }
+    }
+    .title-featured {
+      text-align: center;
+    }
+  }
+  // content-height-line //
+  .content-height-line {
+    .homepage-adjust {
+      float: none !important;
+    }
+   .title-lorem {
+      padding: 9px;
+    }
+    .title-heading {
+      text-align: center;
+    }
+  }
+  //lery-footer//
+  .lery-footer {
+    .gallery-footer {
+      .gallery-footer-item {
+        float: none !important;
+        width: 100% !important;
+        height: 100% !important;
+        .title-about {
+          text-align: center;
+        }
+        .desc-text {
+          padding: 9px;
+        }
+        .box {
+          .box-item {
+            margin-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    padding: 20px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .top-header {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 15px;
+    .logo {
+      float: left !important;
+      text-align: center;
+    }
+    .menu-login {
+      float: none !important;
+      text-align: center;
+      display: none;
+      padding-top: 70px;
+      .ls, .lc {
+        &:after {
+          display: none;
+        }
+      }
+      .menu-login-item {
+        display: block;
+        padding: 0 !important;
+        width: 100%;
+        height: 40px;
+        line-height: 50px;
+        border-bottom: 1px solid orange;
+        .menu-login-item-a {
+          padding: 0;
+          font-size: 12px;
+          &:hover {
+            text-decoration: underline;
+            color: orange;
+          }
+        }
+      }
+    }
+    .nav-bar-bar {
+      display: block !important;
+      width: 40px;
+      height: 40px;
+      background:  orange;
+      text-align: center;
+      line-height: 40px;
+      position: absolute;
+      right: 8px;
+      top: 14px;
+    }
+    .nav-bar-a  {
+      color: #ffffff;
+    }
+  }
+  .bottom-header {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    .menu-main {
+      float: none !important;
+      display: none;
+    }
+    .right-nav-bar {
+      float: none !important;
+      text-align: center;
+      .socials {
+        float: none !important;
+      }
+    }
+  }
+  .select-menu {
+    display: block !important;
+    padding: 9px;
+    width: 50% !important;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background: url(../img/bg/select-arrow.png) center right no-repeat;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .input {
+    margin-bottom: 20px !important;
+  }
+  //petured-product//
+  .petured-product {
+    .gallery {
+      .gallery-item {
+        float: left !important;
+        width: calc((100% - 90px) / 2) !important;
+        height: 100% !important;
+        margin-right: 60px !important;
+        &:nth-child(2n) {
+          margin-right: 0 !important;
+        }
+      }
+    }
+    .title-featured {
+      text-align: center;
+    }
+  }
+  // content-height-line //
+  .content-height-line {
+    .homepage-adjust {
+      float: none !important;
+    }
+   .title-lorem {
+      padding: 9px;
+    }
+    .title-heading {
+      text-align: center;
+    }
+  }
+  //lery-footer//
+  .lery-footer {
+    .gallery-footer {
+      .gallery-footer-item {
+        float: left !important;
+        width: calc((100% - 90px) / 2) !important;
+        height: 100% !important;
+        margin-right: 60px !important;
+        &:nth-child(2n) {
+          margin-right: 0 !important;
+        }
+        .title-about {
+          text-align: center;
+        }
+        .desc-text {
+          padding: 9px;
+        }
+        .box {
+          .box-item {
+            margin-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    padding: 20px !important;
+  }
+}
+

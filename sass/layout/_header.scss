@@ -3,6 +3,9 @@
   @extend %clearfix;
   background: map-get($color, camp);
   height: 68px;
+  .nav-bar-bar {
+    display: none;
+  }
   .logo {
     @extend %no-mr-pd;
     background: none;
@@ -107,6 +110,9 @@
       background: url(../img/icon/search-magnify.png) top right no-repeat;;
       margin: 10px 8px;
     }
+  }
+  .select-menu {
+    display: none;
   }
 }
 

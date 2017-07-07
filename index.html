@@ -4,20 +4,27 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Camp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/function_navbar.js"></script>
   </head>
   <body>
     <header>
       <div class="top-header">
         <div class="container">
           <div class="logo"><img src="img/logo/logo.png" alt="logo.png" class="img-logo"></div>
-          <ul class="menu-login">
-            <li class="menu-login-item"><a href="" class="menu-login-item-a ls text-uppercase font-size-15">login</a></li>
-            <li class="menu-login-item"><a href="" class="menu-login-item-a text-uppercase font-size-15">shopping cart(0)</a></li>
-            <li class="menu-login-item"><a href="" class="menu-login-item-a lc text-uppercase font-size-15">checkout</a></li>
-          </ul>
+          <nav>
+            <ul class="menu-login">
+              <li class="menu-login-item active"><a href="" class="menu-login-item-a ls text-uppercase font-size-15">login</a></li>
+              <li class="menu-login-item"><a href="" class="menu-login-item-a text-uppercase font-size-15">shopping cart(0)</a></li>
+              <li class="menu-login-item"><a href="" class="menu-login-item-a lc text-uppercase font-size-15">checkout</a></li>
+            </ul>
+            <a href="" id="pull" class="nav-bar-bar nav-bar-a font-size-16" id="menu-bar">&#9776;</a>
+          </nav>
         </div>
       </div>
       <div class="bottom-header">
@@ -30,6 +37,15 @@
             <li class="menu-main-item"><a href="" class="menu-main-item-a font-size-18">Blog</a></li>
             <li class="menu-main-item"><a href="" class="menu-main-item-a font-size-18">Contact</a></li>
           </ul>
+          <select class="select-menu">
+            <option value="" class="option">Home</option>
+            <option value="" class="option">Shop</option>
+            <option value="" class="option">My Account</option>
+            <option value="" class="option">Templace</option>
+            <option value="" class="option">Blog</option>
+            <option value="" class="option">Contact</option>
+            option
+          </select>
           <div class="right-nav-bar">
             <ul class="socials">
               <li class="social-item"><a href="" class="social-item-a"><i class="fa fa-rss"></i></a></li>
@@ -102,10 +118,8 @@
       <div class="content-height-line">
         <div class="container">
           <h3 class="title-heading font-size-24">Featured Heading Area</h3>
-          <div class="alignright homepage-adjust">
-            <a href="" class="btn-start bts font-size-14">Start Shopping</a>
-          </div>
-          <p class="font-size-16">Lorem ipsum dolor sit amet, cotectetur adipiscing elit. Suspendisse suscipit augue eu felis euismod dignissim in in purus. Phasellus id tellus purus, a laoreet quam. Mauris in nulla enim, ac egestas ipsum.</p>
+          <div class="homepage-adjust"><a href="" class="btn-start bts font-size-14">Start Shopping</a></div>
+          <p class="font-size-16 title-lorem">Lorem ipsum dolor sit amet, cotectetur adipiscing elit. Suspendisse suscipit augue eu felis euismod dignissim in in purus. Phasellus id tellus purus, a laoreet quam. Mauris in nulla enim, ac egestas ipsum.</p>
         </div>
       </div>
       <section class="petured-product lasted-product container">
@@ -155,12 +169,12 @@
     </main>
     <footer>
       <div class="lery-footer">
-        <div class="container gallery">
-          <div class="gallery-item">
+        <div class="container gallery-footer">
+          <div class="gallery-footer-item">
             <h3 class="title-about font-size-18">About us</h3>
             <p class="desc-text font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat suscipit nulla, sed lacinia sem faucibus porta. Donec euismod facilisis consequat.</p>
           </div>
-          <div class="gallery-item">
+          <div class="gallery-footer-item">
             <h3 class="title-about font-size-18">Meta</h3>
             <ul class="menu-meta">
               <li class="menu-meta-item"><a href="" class="menu-meta-item-a font-size-14">Log in</a></li>
@@ -169,7 +183,7 @@
               <li class="menu-meta-item"><a href="" class="menu-meta-item-a font-size-14">WordPress.org</a></li>
             </ul>
           </div>
-          <div class="gallery-item">
+          <div class="gallery-footer-item">
             <h3 class="title-about font-size-18">Photos from Flickr</h3>
             <div class="box">
               <div class="box-item"><img src="img/photo/1.jpg" alt="" class="img-box"></div>
@@ -180,7 +194,7 @@
               <div class="box-item"><img src="img/photo/6.jpg" alt="" class="img-box"></div>
             </div>
           </div>
-          <div class="gallery-item">
+          <div class="gallery-footer-item">
             <h3 class="title-about font-size-18">Categories</h3>
             <ul class="menu-meta">
               <li class="menu-meta-item"><a href="" class="menu-meta-item-a font-size-14">Coding</a></li>
@@ -191,9 +205,7 @@
             </ul>
           </div>
         </div>
-        <div class="container copyright font-size-14">
-            © 2017 All Rights Reserved. Designed by <a href="" class="copy-a">Progression Studios</a>.
-        </div>
+        <div class="container copyright font-size-14">© 2017 All Rights Reserved. Designed by <a href="" class="copy-a">Progression Studios</a>.</div>
         <div class="footer-dotted"></div>
       </div>
     </footer>
