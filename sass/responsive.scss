@@ -213,12 +213,17 @@
     margin-bottom: 20px !important;
   }
   //petured-product//
+
   .petured-product {
     .gallery {
       .gallery-item {
         float: none !important;
         width: 100% !important;
         height: 100%;
+        .hover-zoom {
+          position: absolute;
+          left: 50% !important;
+        }
       }
     }
     .title-featured {
@@ -356,6 +361,17 @@
           margin-right: 0 !important;
         }
       }
+     .hover-zoom {
+        position: absolute;
+        left: 50% !important;
+      }
+     .sample-item {
+       &:before {
+        position: absolute;
+        width: 98% !important;
+        height: 61% !important;
+       }
+     }
     }
     .title-featured {
       text-align: center;

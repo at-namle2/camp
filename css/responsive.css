@@ -167,6 +167,9 @@
     float: none !important;
     width: 100% !important;
     height: 100%; }
+    .petured-product .gallery .gallery-item .hover-zoom {
+      position: absolute;
+      left: 50% !important; }
   .petured-product .title-featured {
     text-align: center; }
 
@@ -266,6 +269,13 @@
     margin-right: 60px !important; }
     .petured-product .gallery .gallery-item:nth-child(2n) {
       margin-right: 0 !important; }
+  .petured-product .gallery .hover-zoom {
+    position: absolute;
+    left: 50% !important; }
+  .petured-product .gallery .sample-item:before {
+    position: absolute;
+    width: 98% !important;
+    height: 61% !important; }
   .petured-product .title-featured {
     text-align: center; }
 
