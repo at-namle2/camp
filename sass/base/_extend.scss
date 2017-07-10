@@ -1,0 +1,40 @@
+%clearfix {
+  &::after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+  }
+}
+%no-mr-pd {
+  margin: 0;
+  padding: 0;
+}
+%ol-bd {
+  outline: none;
+  border: none;
+}
+%select-option {
+  @include border-radius(3px);
+  padding: 10px 15px 11px 15px;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.1);
+  border: 1px solid map-get($color, gray-4);
+  background-color: map-get($color, white-2);
+  text-decoration: none;
+  cursor: pointer;
+  color: map-get($color, black);
+  display: block;
+  padding-top: 3px;
+  height: 18px;
+  margin: 0 auto;
+}
+%gallery-item {
+  float: left;
+  width: calc((100% - 180px) / 4);
+  margin-right: 60px;
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+}

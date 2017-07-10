@@ -1,0 +1,118 @@
+// *top-header*//
+.top-header {
+  @extend %clearfix;
+  background: map-get($color, camp);
+  height: 68px;
+  .nav-bar-bar {
+    display: none;
+  }
+  .logo {
+    @extend %no-mr-pd;
+    background: none;
+    float: left;
+    .img-logo {
+      max-width: 120px;
+      height: 60px;
+    }
+  }
+  .menu-login {
+    @extend %no-mr-pd;
+    float: right;
+    .menu-login-item {
+      background: url(../img/bg/login-header.png) top right no-repeat;
+      display: inline-block;
+      padding: 0 15px;
+      .menu-login-item-a {
+        text-decoration: none;
+        color: map-get($color, white);
+        padding: 28px 0;
+        display: inline-block;
+        opacity: 0.8;
+        &:hover {
+          @include transition(all .4s linear);
+          opacity: 1;
+        }
+      }
+      .ls {
+        padding-right: 10px;
+        position: relative;
+        &:after {
+          content: url(../img/icon/login-header.png);
+          position: absolute;
+          left: 50px;
+          top: 34%;
+        }
+      }
+      .lc {
+        padding-right: 10px;
+        position: relative;
+        &:after {
+          content: url(../img/icon/check-header.png);
+          position: absolute;
+          left: 84px;
+          top: 34%;
+        }
+      }
+    }
+  }
+}
+// *bottom-header*//
+.bottom-header {
+  @extend %clearfix;
+  background: map-get($color, orange);
+  .menu-main {
+    @extend %no-mr-pd;
+    float: left;
+    .menu-main-item {
+      display: inline-block;
+      padding: 20px 20px;
+      .menu-main-item-a {
+        text-decoration: none;
+        color: map-get($color, white);
+        opacity: 0.8;
+        &:hover {
+          @include transition(all .4s linear);
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .right-nav-bar {
+    float: right;
+    .socials {
+      @extend %clearfix;
+      float: left;
+      .social-item {
+        @include border-radius(50%);
+        margin: 12px 4px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: map-get($color, white);
+        line-height: 20px;
+        text-align: center;
+        opacity: 0.8;
+        &:hover {
+          opacity: 1;
+        }
+        .social-item-a {
+          color: map-get($color, orange);
+        }
+      }
+    }
+    .input {
+      @include border-radius(20px);
+      width: 170px;
+      padding: 5px 18px 5px 12px;
+      border: 2px solid map-get($color, white-1);
+      box-shadow: 0px 0px 4px rgba(0,0,0, .50);
+      background-color: map-get($color, white) !important;
+      background: url(../img/icon/search-magnify.png) top right no-repeat;;
+      margin: 10px 8px;
+    }
+  }
+  .select-menu {
+    display: none;
+  }
+}
+

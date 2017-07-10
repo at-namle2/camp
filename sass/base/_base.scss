@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: map-get($color, gray-10);
+}
+h1, h2 , h3, h4, h5, h6 {
+  font-family: 'Economica', sans-serif;
+}
+.font-roboto {
+  font-family: "Roboto Condensed", serif;
+}
+.bgk {
+  background-color: #ebe7df;
+}
+.img {
+  max-width: 100%;
+  width: 100%;
+}
+.img-border {
+  border: 1px solid map-get($color, gray-1);
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-14 {
+  font-size: 15px;
+}
+.font-size-15 {
+  font-size: 15px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.font-size-17 {
+  font-size: 17px;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.font-size-24 {
+  font-size: 24px;
+}
+.font-size-30 {
+  font-size: 30px;
+}
+.font-size-48 {
+  font-size: 48px;
+}
+.font-size-60 {
+  font-size: 60px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
